@@ -45,3 +45,22 @@ Expect concatOdds(array1, array2) to be an empty array
 3. Unhappy path: Input conatins strings [1,3,5,7, yes], [9,11]
 Expect concatOdds(array1, array2) to return [1,3,5,7,9,11]
 */
+
+// Functional Tests:
+
+/*
+1. When the user is at the checkout stage, check whether the user is logged in or checking out as guest.
+
+2. When the cart is empty, a message should be displayed showing no items in cart and not be allowed to proceed to checkout.
+
+3. When the user wants to checkout as guest, a prompt to create an account should populate in case the user wants to create an account.
+
+4. When the user insists on not creating an account, the guest checkout button should be visible
+
+5. When the user wants to checkout with a created account, account credentials should be populated to be fillled in. If the account info is blank, an error should be shown.
+
+6. When user creates an account, verify input and verify email and password.
+
+7. When the user is ready to checkout with either created or guest account, payment information should be taken, order placed, followed by confirmation email or message. 
+
+*/
